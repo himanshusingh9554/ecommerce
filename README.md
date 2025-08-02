@@ -33,7 +33,7 @@ This is the backend for a lightweight transactional system, built with Node.js, 
 
 ### Installation & Setup
 1.  **Clone the repository:**
-git clone <your-repo-url>
+git clone https://github.com/himanshusingh9554/ecommerce.git
 2.  **Navigate to the project directory:**
 cd ecommerce-api
 3.  **Build and run the application with Docker Compose:**
@@ -117,11 +117,11 @@ Prerequisites
 Docker Desktop must be installed and running on your machine.
 
 Installation & Setup
-Clone the repository:
+Clone the repository: https://github.com/himanshusingh9554/ecommerce.git
 
 Bash
 
-git clone <your-repo-url>
+git clone https://github.com/himanshusingh9554/ecommerce.git
 Navigate to the project directory:
 
 Bash
