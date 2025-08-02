@@ -77,7 +77,6 @@ RESPONSE
     "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 }
 
-Haan, bilkul. Yeh lijiye final README.md file. Ismein sabhi zaroori details aur examples add kar diye gaye hain. Aap ise direct copy karke apni file mein paste kar sakte hain.
 
 E-commerce API Backend
 This is the backend for a lightweight transactional system, built with Node.js, Express, PostgreSQL, and Sequelize. The entire application is containerized using Docker for easy setup and deployment.
