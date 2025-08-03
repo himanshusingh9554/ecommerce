@@ -36,7 +36,11 @@ This is the backend for a lightweight transactional system, built with Node.js, 
 git clone https://github.com/himanshusingh9554/ecommerce.git
 2.  **Navigate to the project directory:**
 cd ecommerce-api
-3.  **Build and run the application with Docker Compose:**
+4.Create the Environment File:
+Create a file named .env in the root directory and paste the following line into it. This is required for creating secure login tokens.
+
+JWT_SECRET=this_is_a_very_secret_key_and_should_be_long
+5.  **Build and run the application with Docker Compose:**
 docker compose up --build
 The server will be running at `http://localhost:3000`.
 
