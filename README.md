@@ -52,6 +52,8 @@ Create the Environment File:
 Create a file named .env in the root directory and paste the following line into it. This is required for creating secure login tokens.
 
 **JWT_SECRET=this_is_a_very_secret_key_and_should_be_long**
+
+
 Build and run the application:
 
 Bash
