@@ -51,7 +51,7 @@ cd ecommerce
 Create the Environment File:
 Create a file named .env in the root directory and paste the following line into it. This is required for creating secure login tokens.
 
-JWT_SECRET=this_is_a_very_secret_key_and_should_be_long
+**JWT_SECRET=this_is_a_very_secret_key_and_should_be_long**
 Build and run the application:
 
 Bash
@@ -59,7 +59,7 @@ Bash
 docker compose up --build
 The server will start and be available at http://localhost:3000.
 
-Seeding the Database (Important for Testing)
+**Seeding the Database (Important for Testing)**
 To create the default admin user and sample products, you need to run the database seeder.
 
 Make sure the application is running (after docker compose up).
@@ -70,7 +70,7 @@ Run the following command:
 
 Bash
 
-docker compose exec app npx sequelize-cli db:seed:all
+**docker compose exec app npx sequelize-cli db:seed:all**
 
 Running Natively (Without Docker)
 Prerequisites:
