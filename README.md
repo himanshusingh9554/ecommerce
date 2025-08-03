@@ -71,6 +71,53 @@ Run the following command:
 Bash
 
 docker compose exec app npx sequelize-cli db:seed:all
+
+Running Natively (Without Docker)
+Prerequisites:
+
+Node.js (v18 or later)
+
+PostgreSQL installed and running.
+
+Instructions:
+
+Clone and install dependencies:
+
+Bash
+
+git clone https://github.com/himanshusingh9554/ecommerce.git
+cd ecommerce
+npm install
+Create the Database:
+Make sure your PostgreSQL server is running. Open a SQL shell (psql) and create the database.
+
+SQL
+
+CREATE DATABASE ecommerce;
+Create the Environment File:
+Create a file named .env in the root directory. You must update the user and password to match your local PostgreSQL setup.
+
+# JWT Secret
+JWT_SECRET=this_is_a_very_secret_key_and_should_be_long
+
+# Database Connection
+DB_HOST=localhost
+DB_USER=postgres
+DB_PASSWORD=your_local_postgres_password
+DB_NAME=ecommerce
+Seed the Database (for Testing):
+Run the seeder command to populate the database with a default admin user and products.
+
+Bash
+
+npx sequelize-cli db:seed:all
+Start the Server:
+
+Bash
+
+npm start
+The server will start at http://localhost:3000.
+
 📖 API Documentation & Usage
 Interactive API Documentation (Swagger) is available at: http://localhost:3000/api-docs
 
